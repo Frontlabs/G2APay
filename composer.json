@@ -1,0 +1,21 @@
+{
+	"name": "frontlabs/g2apay",
+	"description": "G2APay PHP library for creating and sending payments.",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Frontlabs",
+			"email": "info@frontlabs.co"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=7.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"G2APay\\": "src/"
+		}
+	}
+}
